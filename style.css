@@ -1,0 +1,75 @@
+
+.container{
+  display: flex;
+}
+
+.children{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(41, 56, 72,1);
+    text-align: center;
+
+
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    background-image: url(img/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Cata{
+    
+}
+.espace{
+
+}
+.connexion{
+}
+.pannier{
+}
+
+.main{
+    
+    
+}
+
+.container2{
+    background-color: skyblue;
+    width: 300px;
+    height: 500px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.CD{
+    background-color:blue;
+    
+   
+}
+.DVD{
+    background-color: blueviolet;
+}
+.livres{
+    background-color: yellow;
+}
+.partitions{
+    background-color: red;
+}
+
+.container3{
+    display: flex;
+    flex-grow: 2;
+    background-color: gray;
+    width: 600px;
+    height: 500px;    
+    
+}
+
+
+
